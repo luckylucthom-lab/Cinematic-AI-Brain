@@ -1,0 +1,293 @@
+# Cinematic AI Brain v2: Director & Cinematographer Prompt Framework
+
+A shooting language for AI film generation. Every shot is a decision: **what the audience sees, how they see it, and what they should feel.** Write prompts the way a DP and director brief a crew, with intent first and technique second.
+
+---
+
+## 0. The Director's Rule
+
+Before writing any prompt, answer three questions:
+
+1. **What is the story beat?** (What changes in this shot?)
+2. **What should the audience feel?** (Dread, intimacy, awe, isolation, power)
+3. **Why this camera?** (Every angle, lens and move must be motivated by 1 and 2.)
+
+If a camera move has no motivation, remove it. A locked-off frame is a choice too.
+
+---
+
+## 1. Shot Size (Scale = Intimacy)
+
+| Shot | Frame | Story Function | Typical Lens |
+|---|---|---|---|
+| **Extreme Wide / Establishing (EWS)** | Subject tiny in vast space | Geography, isolation, scale, world-building | 18-24mm |
+| **Wide / Full Shot (WS)** | Whole body plus environment | Character in context, blocking, physical action | 24-35mm |
+| **Medium Wide / Cowboy (MWS)** | Mid-thigh up | Posture, gesture, weapon or hand business | 35mm |
+| **Medium Shot (MS)** | Waist up | Dialogue, conversational balance | 35-50mm |
+| **Medium Close-Up (MCU)** | Chest up | The standard dramatic dialogue frame | 50-65mm |
+| **Close-Up (CU)** | Face fills frame | Emotion, thought, decision | 65-85mm |
+| **Extreme Close-Up (ECU)** | Eyes, lips, hands, object detail | Tension, obsession, clue, intimacy | 85-135mm / macro |
+| **Insert** | Prop or detail cutaway | Story information (letter, trigger, clock) | 50-100mm macro |
+| **Over-the-Shoulder (OTS)** | Foreground shoulder, focus on the other character | Conversation, power dynamic, connection | 50-85mm |
+| **Two-Shot** | Both characters in one frame | Relationship, tension, shared space | 35-50mm |
+| **POV** | Through the character's eyes | Subjectivity, voyeurism, fear | 24-35mm |
+
+**Rule of thumb:** wide shots show *where*, mediums show *who*, close-ups show *why*. Tighten the frame as emotional stakes rise.
+
+---
+
+## 2. Camera Angle (Angle = Power & Psychology)
+
+- **Eye Level:** neutral, honest, documentary realism.
+- **Low Angle (hero angle):** camera below the subject looking up. Power, menace, heroism, dominance.
+- **High Angle:** camera above looking down. Vulnerability, insignificance, surveillance.
+- **Overhead / God's Eye:** top-down 90°. Fate, patterns, helplessness, choreography.
+- **Dutch Angle (canted):** tilted horizon. Instability, psychological unease, disorientation. Use sparingly.
+- **Worm's Eye:** ground level looking up. Extreme scale and imposing architecture.
+- **Profile / Three-Quarter / Rear Angle:** controls how much the audience can read a face. Rear angle builds mystery, profile builds detachment.
+
+Add **camera height** when it matters: *knee height, waist height, eye-line, shoulder height, crane height.*
+
+---
+
+## 3. Composition & Framing
+
+- **Rule of Thirds:** place the subject on an intersection for natural balance.
+- **Centered / Symmetrical:** formal, controlled, unsettling or iconic.
+- **Leading Lines:** roads, corridors and rails drive the eye to the subject.
+- **Negative Space:** empty frame around the subject, which reads as loneliness, doubt or tension.
+- **Headroom & Lookroom:** give space in the direction the character looks. Remove it for claustrophobia.
+- **Frame-within-Frame:** doorways, windows and mirrors. Suggests confinement, observation, memory.
+- **Layered Depth:** foreground (FG) / midground (MG) / background (BG). Always specify at least two layers for cinematic depth.
+- **Silhouette:** subject backlit against a bright background. Mystery, anonymity, iconography.
+- **Aspect Ratio:** 2.39:1 (cinematic scope), 1.85:1 (classic theatrical), 16:9 (broadcast/streaming), 4:3 (intimate, period, claustrophobic), 9:16 (vertical).
+
+---
+
+## 4. Camera Movement (Move = Emotion in Motion)
+
+State the move, its speed, and its purpose.
+
+**Fixed & Pivoting**
+- **Locked-Off / Static:** stillness, observation, dread, formality.
+- **Pan:** horizontal pivot to reveal or follow. **Whip Pan:** violent snap between subjects or time.
+- **Tilt:** vertical pivot. Tilt up to reveal scale or power, tilt down to reveal detail or vulnerability.
+
+**Travelling**
+- **Push-In / Dolly-In:** slow approach, rising intensity, realization or intrusion.
+- **Pull-Out / Dolly-Out:** reveals context, isolation or consequence.
+- **Tracking / Trucking Shot:** moves alongside the subject. Companionship, pursuit, momentum.
+- **Low-Angle Tracking:** glides low to the ground following motion. Speed, authority, menace.
+- **Lateral Slide:** sideways dolly, voyeuristic or observational.
+- **Orbit / Arc:** circles the subject, intensifying the moment or showing a transformation.
+- **Dolly Zoom (Vertigo Effect):** dolly in while zooming out (or reverse). Psychological shock, panic, realization.
+
+**Elevated**
+- **Crane / Jib Up or Down:** rising reveal or descending intimacy.
+- **Drone Reveal:** sweeping aerial move, rising over a ridge or pulling back from a figure.
+- **Pedestal:** camera rises or lowers vertically without tilting.
+
+**Organic**
+- **Handheld:** urgency, anxiety, documentary realism. Specify *subtle* or *aggressive.*
+- **Steadicam / Gimbal Follow:** fluid, floating pursuit through space (corridors, parties, battles).
+- **Rack Focus:** shifts the audience's attention from one subject to another within the frame.
+- **Slow Creep:** barely perceptible push, used for suspense.
+
+**Speed Vocabulary:** *imperceptible, slow, measured, steady, brisk, urgent, violent.*
+
+---
+
+## 5. Lens & Optics
+
+**Focal Length Psychology**
+| Lens | Effect |
+|---|---|
+| **16-24mm** | Distortion, scale, immersion, unease at close range |
+| **28-35mm** | Natural storytelling width, environmental portraits |
+| **40-50mm** | Closest to human vision, honest and neutral |
+| **65-85mm** | Flattering compression, isolating subject, emotional intimacy |
+| **100-200mm (telephoto)** | Compressed depth, surveillance feel, tension through distance |
+
+**Aperture & Depth of Field**
+- **f/1.2-f/2.0:** shallow focus, creamy bokeh, subject isolation.
+- **f/2.8-f/4:** balanced, subject sharp with soft background.
+- **f/8-f/11:** deep focus, everything sharp, environment-as-character.
+- **Split Diopter:** foreground and background both sharp, with tension between planes.
+
+**Lens Character**
+- **Anamorphic:** horizontal oval bokeh, blue horizontal flares, wide cinematic feel, slight edge softness.
+- **Vintage / Soft Glass:** lower contrast, halation, glowing highlights, organic imperfection.
+- **Spherical Prime:** clean, sharp, modern.
+- **Macro:** extreme detail on texture, eyes, objects.
+- **Tilt-Shift:** selective focus plane, miniature or dreamlike effect.
+
+**Optical Texture**
+*lens flare, halation, film grain, chromatic aberration, vignetting, diffusion filter (Pro-Mist), haze.*
+
+---
+
+## 6. Lighting (The DP's Core Language)
+
+**Three-Point Foundation**
+- **Key:** main light shaping the face. **Fill:** softens shadows. **Back / Rim:** separates subject from background.
+
+**Contrast Ratios**
+- **High-key (low contrast, 2:1):** bright, open, optimistic, comedic or commercial.
+- **Low-key (high contrast, 8:1+):** deep shadows, drama, danger, noir.
+
+**Quality of Light**
+- **Hard light:** sharp shadows, harsh, interrogative. **Soft light:** wrapping, flattering, intimate.
+
+**Direction & Style**
+- **Rembrandt:** triangle of light on the shadow-side cheek, classic portrait drama.
+- **Butterfly / Paramount:** key above and front, glamour.
+- **Split Lighting:** half the face in shadow, duality or inner conflict.
+- **Chiaroscuro:** extreme light/dark contrast, painterly.
+- **Underlighting:** light from below, horror and unnatural menace.
+- **Backlight / Contre-jour:** halo, silhouette, godlike or ethereal.
+- **Practical Lighting:** visible in-scene sources (lamps, neon, candles, TV glow) for realism.
+- **Motivated Lighting:** every light has a believable source (window, streetlight, fire).
+- **Silhouette Lighting:** subject as pure shape against bright background.
+
+**Atmosphere**
+*volumetric fog, god rays through a window, rain-slicked reflections, dust motes, smoke haze, mist, steam.*
+
+**Time & Color Temperature**
+- **Golden Hour (~3000K):** warm, nostalgic, romantic.
+- **Blue Hour (~7000K):** cool, quiet, melancholic.
+- **Midday Sun:** harsh, flat, exposed.
+- **Overcast:** soft, even, muted, grief or realism.
+- **Night Exterior:** moonlight blue plus tungsten pools (street lamps, windows).
+- **Tungsten (3200K) vs Daylight (5600K):** mix them for a warm/cool contrast within one frame.
+
+---
+
+## 7. Color & Grade
+
+**Palettes**
+- **Teal & Orange:** blockbuster separation of skin tones from environment.
+- **Monochromatic:** a single hue family for mood control.
+- **Complementary Contrast:** red/green, blue/yellow for tension.
+- **Desaturated / Bleach Bypass:** gritty, war-torn, bleak realism.
+- **Pastel / Soft Palette:** whimsical, nostalgic, stylized.
+- **Neon (cyan/magenta):** cyberpunk, nightlife, synthetic worlds.
+- **Warm Amber Shadows:** period piece, memory, comfort.
+- **Cold Steel Blue:** surveillance, grief, sterile institutions.
+
+**Film Look**
+*Kodak Vision3 500T (tungsten cinematic grain), Kodak Portra (soft skin tones), Fuji Eterna (muted greens), 16mm (gritty grain), 35mm (rich, classic), 65mm / IMAX (immense clarity), digital cinema (clean, high dynamic range).*
+
+**Grade Descriptors**
+*lifted blacks, crushed blacks, rich shadows, creamy highlights, high dynamic range, controlled highlight roll-off, film halation.*
+
+---
+
+## 8. Directing the Performance & Blocking (Act-Director Layer)
+
+AI shots fail when the *acting* is vague. Direct the actor, not just the camera.
+
+**Describe:**
+- **Physical action:** one clear verb. *Grips, hesitates, turns away, exhales, slams, whispers.*
+- **Emotional state:** the *subtext*, not just the label. Not "sad" but *"holding back tears, composed on the surface."*
+- **Eye-line:** *looks off-camera left, avoids eye contact, stares directly into lens.*
+- **Micro-expression:** *jaw tightens, eyes glisten, faint smile that doesn't reach the eyes.*
+- **Blocking:** *crosses frame left to right, steps toward camera, remains seated while others stand.*
+- **Spatial relationship:** *distance between characters conveys the relationship.*
+- **Wardrobe & Props:** *worn leather coat, trembling hands holding a letter.*
+
+**Performance Styles:** *naturalistic, restrained, theatrical, heightened, minimalist, raw.*
+
+---
+
+## 9. Genre Looks (Quick-Reference)
+
+| Genre | Shots & Angles | Movement | Light & Color |
+|---|---|---|---|
+| **Neo-Noir** | Dutch angles, low angles, OTS | Slow push, slow track | Low-key, hard side light, rain reflections, neon accents |
+| **Horror** | Wide with negative space, POV, rear angle | Slow creep, handheld panic | Underlighting, deep shadows, desaturated, practical flicker |
+| **Epic / Fantasy** | EWS, low-angle hero, crane reveals | Crane up, drone, sweeping arc | Golden hour, volumetric god rays, rich color |
+| **Sci-Fi** | Symmetrical wides, centered frames | Slow dolly, precise gimbal | Cool blue, neon cyan/magenta, clean steel |
+| **Drama / Intimate** | MCU, CU, two-shot | Subtle handheld, static | Soft window light, naturalistic, muted palette |
+| **Action / Thriller** | Mixed wides and CUs, low tracking | Handheld, whip pans, steadicam | High contrast, teal & orange, motion blur |
+| **War / Gritty** | Handheld, long lens compression | Shaky, reactive | Bleach bypass, desaturated, dust and smoke |
+| **Romance** | CU, shallow focus, two-shot | Slow orbit, gentle push | Golden hour, warm amber, soft diffusion |
+
+---
+
+## 10. Master Prompt Format (v2)
+
+```
+[1 SUBJECT & ACTION]  +  [2 PERFORMANCE & EMOTION]  +  [3 SHOT SIZE & ANGLE]
++ [4 COMPOSITION & DEPTH]  +  [5 CAMERA MOVEMENT]  +  [6 LENS & APERTURE]
++ [7 LIGHTING]  +  [8 COLOR & FILM LOOK]  +  [9 ENVIRONMENT & ATMOSPHERE]
++ [10 MOOD & GENRE]  +  [11 TECH SPECS]
+```
+
+**Block Guide**
+1. **Subject & Action:** who, doing what, one clear verb.
+2. **Performance & Emotion:** subtext, micro-expression, eye-line.
+3. **Shot Size & Angle:** from sections 1 and 2.
+4. **Composition & Depth:** thirds / centered, FG-MG-BG layers.
+5. **Camera Movement:** move, speed, motivation (video only).
+6. **Lens & Aperture:** focal length, f-stop, lens character.
+7. **Lighting:** key direction, quality, contrast, motivated source.
+8. **Color & Film Look:** palette, stock, grain, grade.
+9. **Environment & Atmosphere:** location, weather, time of day, haze.
+10. **Mood & Genre:** one or two precise emotional words.
+11. **Tech Specs:** aspect ratio, resolution, frame rate, duration.
+
+**Optional Continuity Block (reuse in every shot of a sequence)**
+```
+CHARACTER: [name, age, build, hair, face, wardrobe, distinguishing marks]
+LOCATION: [specific place, layout, key props]
+LOOK: [lens family, palette, grain, lighting style, aspect ratio]
+```
+Repeat these words *exactly* in every prompt to keep identity, wardrobe and look consistent across shots.
+
+**Negative / Avoid Block**
+```
+AVOID: distorted hands, extra fingers, warped faces, text or watermarks,
+oversaturated plastic skin, flat lighting, inconsistent wardrobe, cartoonish look
+```
+
+---
+
+## 11. Image vs. Video Prompts
+
+- **Still image:** drop camera *movement* and duration. Use extra detail on lens, light and texture.
+- **Video:** include a single clear move per clip. Keep clips to **one action and one camera move** for stability (4-10 seconds).
+- **Multi-shot sequences:** build a shot list (wide → medium → close-up → insert), reusing the Continuity Block.
+- **Shot Variation:** alternate sizes and angles to avoid monotony and respect the 30-degree rule (change angle by at least 30° between cuts).
+- **Eye-line Continuity:** keep characters facing consistent directions across a conversation (the 180° rule).
+
+---
+
+## 12. Examples
+
+**A. Neo-Noir Interrogation (video)**
+> A weary detective in a rumpled trench coat slowly lights a cigarette, jaw clenched, eyes fixed off-camera left with quiet menace. **Medium close-up, low angle**, subject on the right third with negative space and venetian-blind shadows behind. **Slow push-in**, imperceptible speed. **50mm anamorphic lens at f/2**, oval bokeh and subtle horizontal flare. **Low-key, hard motivated key light** from a window camera-left, thin rim light on the shoulder, volumetric cigarette smoke. **Teal shadows with warm amber skin tones**, Kodak Vision3 500T grain. Rain-streaked glass, dim office at night. **Tense, gritty, neo-noir.** 2.39:1, 24fps, 6 seconds.
+
+**B. Epic Establishing Reveal (video)**
+> A lone warrior in weathered armor stands on a cliff edge overlooking a vast burning valley, cloak whipping in the wind, shoulders heavy with resolve. **Extreme wide shot, high angle**, the figure small on the lower-left third, mountain ranges layered in foreground, midground and background. **Slow crane-up and pull-back reveal.** **24mm spherical lens at f/8**, deep focus. **Golden-hour backlight** with volumetric god rays through smoke, warm rim light on armor. **Rich amber and deep crimson palette**, 65mm film clarity, soft halation. **Awe, dread, epic fantasy.** 2.39:1, 24fps, 8 seconds.
+
+**C. Intimate Drama Close-Up (still)**
+> A young woman at a rain-covered window, eyes glistening, holding back tears behind a composed expression, gaze drifting past the camera. **Close-up, eye level, three-quarter angle**, face on the left third with soft out-of-focus city lights as bokeh. **85mm lens at f/1.4**, creamy shallow depth of field. **Soft, cool window key light**, faint warm practical lamp fill, gentle rim light on hair. **Muted blue-grey palette with warm skin tones**, fine 35mm grain. **Quiet grief, intimate, naturalistic.** 1.85:1.
+
+---
+
+## 13. Pre-Shot Checklist
+
+- [ ] Is the **story beat** and **emotion** clear?
+- [ ] Does the **shot size** match the emotional intensity?
+- [ ] Does the **angle** express power or vulnerability?
+- [ ] Is every **camera move motivated**?
+- [ ] Is the **lens** consistent with the look of the film?
+- [ ] Does the **light** have a motivated source and a clear ratio?
+- [ ] Is the **palette** consistent across the sequence?
+- [ ] Is the **performance** directed with subtext, not just labels?
+- [ ] Are **continuity details** (character, wardrobe, location, look) locked?
+- [ ] Is there an **AVOID** block to prevent AI artifacts?
+
+---
+
+*Think like the DP. Direct like the auteur. Every frame is a choice.*
